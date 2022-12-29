@@ -62,6 +62,7 @@ aside {
     font-family: itim;
     background-color: transparent;
     border: 0;
+    width: 100%;
     color: white;
     font-size: 1.4rem;
     cursor: pointer;
@@ -70,6 +71,7 @@ aside {
     gap: 1rem;
     font-weight: 600;
     padding: 1rem;
+
 }
 
 .boton-menu.active {

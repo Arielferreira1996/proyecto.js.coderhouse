@@ -17,15 +17,28 @@
         </header>
         <nav>
             <ul class="menu">
-                <li><button class="boton-menu botones-navbar active"><i class="bi bi-arrow-right-circle-fill"></i> Todos los
-                        productos</button></li>
-                <li><button class="boton-menu botones-navbar"><i class="bi bi-arrow-right-circle"></i> Amd</button></li>
-                <li><button class="boton-menu botones-navbar"><i class="bi bi-arrow-right-circle"></i> Intel</button>
+                <li>
+                    <button class="boton-menu botones-navbar active" id="todos"><i
+                            class="bi bi-arrow-right-circle-fill"></i> Todos los
+                        productos</button>
                 </li>
-                <li><button class="boton-menu botones-navbar"><i class="bi bi-arrow-right-circle"></i> Tarjetas
-                        Graficas</button></li>
-                <li><a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart-fill"></i> Carrito
-                        <span class="numero">0</span></a></li>
+                <li>
+                    <button class="boton-menu botones-navbar" id="Amd"><i class="bi bi-arrow-right-circle"></i>
+                        Amd</button>
+                </li>
+                <li>
+                    <button class="boton-menu botones-navbar" id="Intel"><i class="bi bi-arrow-right-circle"></i>
+                        Intel</button>
+                </li>
+                <li>
+                    <button class="boton-menu botones-navbar" id="graficas"><i class="bi bi-arrow-right-circle"></i>
+                        Tarjetas
+                        Graficas</button>
+                </li>
+                <li>
+                    <a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart-fill"></i> Carrito
+                        <span class="numero" id="numero">0</span></a>
+                </li>
             </ul>
         </nav>
         <footer>
@@ -33,10 +46,11 @@
         </footer>
     </aside>
     <main>
-        <h2 class="titulo-principal">Todos Los Productos</h2>
-        <div class="contenedor-productos">
-    <!-- EL RELLENO DE LA PAGINA SE ENCUENTRA EN JS********************************************* -->
+        <h2 class="titulo-principal" id="titulo-principal">Todos los Productos</h2>
+        <div class="contenedor-productos" id="contenedor-productos">
+            <!-- EL RELLENO DE LA PAGINA SE ENCUENTRA EN JS********************************************* -->
         </div>
+
     </main>
     <script src="./principal.js"></script>
 </body>
