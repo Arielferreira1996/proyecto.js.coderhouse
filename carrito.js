@@ -20,9 +20,9 @@ function cargarProductosCarrito() {
         contenedorProductos.classList.remove("disabled");
         contenedorCarritoAcciones.classList.remove("disabled");
         contenedorCarritoComprado.classList.add("disabled");
-    
+
         contenedorProductos.innerHTML = "";
-    
+
         carrito.forEach(producto => {
             const div = document.createElement("div");
             div.classList.add("carrito-producto");
@@ -52,7 +52,7 @@ function cargarProductosCarrito() {
 
         actualizarBotonesEliminar();
         actualizarTotal();
-    
+
     } else {
         contenedorCarritoVacio.classList.remove("disabled");
         contenedorProductos.classList.add("disabled");
@@ -77,7 +77,22 @@ function actualizarBotonesEliminar() {
 function eliminarDelCarrito(e) {
     let idBoton = e.currentTarget.id;
     const indice = carrito.findIndex(producto => producto.id === idBoton);
-    
+    Swal.fire({
+        title: 'Desea eliminar el producto?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Eliminar!'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire(
+                'Eliminado!',
+                'Producto Eliminado.',
+                'success'
+            )
+        }
+    })
     carrito.splice(indice, 1);
     cargarProductosCarrito();
 
@@ -88,10 +103,28 @@ function eliminarDelCarrito(e) {
 // EVENTO Y FUNCION PARA VACIAR EL CARRITO ******************************************************************
 
 botonVaciar.addEventListener("click", vaciarCarrito);
+
 function vaciarCarrito() {
+    Swal.fire({
+        title: 'Desea eliminar todos los productos?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Eliminar!'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire(
+                'Eliminado!',
+                'Producto Eliminado.',
+                'success'
+            )
+        }
+    })
     carrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
     cargarProductosCarrito();
+
 }
 
 // FUNCION PARA CALCULAR EL TOTAL DE LA COMPRA*************************************************************************
@@ -104,13 +137,28 @@ function actualizarTotal() {
 // EVENTO Y FUNCION PARA REALIZAR LA COMPRA *****************************************************************************
 
 botonComprar.addEventListener("click", comprarCarrito);
+
 function comprarCarrito() {
 
     carrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
-    
+
     contenedorCarritoVacio.classList.add("disabled");
     contenedorProductos.classList.add("disabled");
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
 }
+
+
+// VACIAR EL CARRITO MEDIANTE SWEETALERT*******************************************************************************
+/*
+botonVaciar.addEventListener("click", function () {
+
+
+})
+
+// ELIMINAR PRODUCTOS DEL CARRITO MEDIANTE SWEETALERT*****************************************************************
+
+botonesEliminar.addEventListener("click", botonesEliminar); {
+
+} */
