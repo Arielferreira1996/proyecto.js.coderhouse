@@ -56,6 +56,8 @@ fetch("/data.json")
             })
         });
 
+        
+
         // FUNCIONES PARA AGREGAR PRODUCTOS AL CARRITO Y PARA QUE NO SE RESETEEN EN EL DOM **************************************
 
         function btnAgregar() {
@@ -63,17 +65,11 @@ fetch("/data.json")
             
             botonesAgregar.forEach(boton => {
                 boton.addEventListener("click", agregarAlCarrito);
-                Toastify({
-                    text: "Producto Agregado",
-                   className: "info",
-                    style: {
-                      background: "linear-gradient(90deg, rgba(249,255,98,1) 0%, rgba(255,244,0,1) 35%, rgba(255,59,0,1) 69%);",
-                    }
-                  }).showToast();
             })
-            
         }
 
+
+        
         // ARRAY VACIO DONDE SE AGREGARAN LOS PRODUCTOS SELECCIONADOS POR EL CLIENTE (carrito)********************************************
         let carrito;
 
@@ -120,10 +116,26 @@ fetch("/data.json")
 
 
 
+    // botonesAgregar.addEventListener("click", function(){ 
+    //     Toastify({
+    //                 text: "Producto Agregado",
+    //                className: "info",
+    //                 style: {
+    //                   background: "linear-gradient(90deg, rgba(249,255,98,1) 0%, rgba(255,244,0,1) 35%, rgba(255,59,0,1) 69%);",
+    //                 }
+    //               }).showToast();
+    //             })
+    // })
+    
 
 
 
-
+        // function agregasteProducto () {
+        //     botonesAgregar = document.querySelectorAll(".prod-agregar");
+        //     botonesAgregar.forEach(boton => {
+        //         boton.addEventListener("click", 
+        //         agregasteProducto()
+        // }
 
 
 

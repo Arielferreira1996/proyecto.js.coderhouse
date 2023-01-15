@@ -92,12 +92,11 @@ function eliminarDelCarrito(e) {
                 'success'
             )
         }
+        carrito.splice(indice, 1);
+        cargarProductosCarrito();
+
+        localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
     })
-    carrito.splice(indice, 1);
-    cargarProductosCarrito();
-
-    localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
-
 }
 
 // EVENTO Y FUNCION PARA VACIAR EL CARRITO ******************************************************************
@@ -120,11 +119,10 @@ function vaciarCarrito() {
                 'success'
             )
         }
+        carrito.length = 0;
+        localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
+        cargarProductosCarrito();
     })
-    carrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(carrito));
-    cargarProductosCarrito();
-
 }
 
 // FUNCION PARA CALCULAR EL TOTAL DE LA COMPRA*************************************************************************
@@ -148,17 +146,3 @@ function comprarCarrito() {
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
 }
-
-
-// VACIAR EL CARRITO MEDIANTE SWEETALERT*******************************************************************************
-/*
-botonVaciar.addEventListener("click", function () {
-
-
-})
-
-// ELIMINAR PRODUCTOS DEL CARRITO MEDIANTE SWEETALERT*****************************************************************
-
-botonesEliminar.addEventListener("click", botonesEliminar); {
-
-} */
