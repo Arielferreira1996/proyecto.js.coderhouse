@@ -9,7 +9,7 @@ const numero = document.querySelector("#numero");
 
 // TRAEMOS LOS PRODUCTOS DESDE DATA.JSON******************************************************************
 
-fetch("/data.json")
+fetch("./data.json")
     .then((resp) => resp.json())
     .then((data) => {
         // FUNCION PARA CARGAR PRODUCTOS DEL DATA.JSON***************************************************
@@ -68,9 +68,8 @@ fetch("/data.json")
             })
         }
 
-
-
         // ARRAY VACIO DONDE SE AGREGARAN LOS PRODUCTOS SELECCIONADOS POR EL CLIENTE (carrito)********************************************
+
         let carrito;
 
         let carritoLs = localStorage.getItem("productos-en-carrito");
@@ -97,12 +96,12 @@ fetch("/data.json")
                 carrito.push(productoAgregado);
             }
             Toastify({
-                text: "Producto Agregado",            
+                text: "Producto Agregado",
                 className: "info",
                 style: {
-                background: "",
-                 }
-              }).showToast();
+                    background: "",
+                }
+            }).showToast();
             actualizarNumero();
 
             localStorage.setItem("productos-en-carrito", JSON.stringify(carrito))
@@ -114,36 +113,3 @@ fetch("/data.json")
         }
 
     })
-
-
-
-
-
-
-
-
-
-// botonesAgregar.addEventListener("click", function(){ 
-   
-            
-
-
-
-
-
-// function agregasteProducto () {
-//     botonesAgregar = document.querySelectorAll(".prod-agregar");
-//     botonesAgregar.forEach(boton => {
-//         boton.addEventListener("click", 
-//         agregasteProducto()
-// }
-
-
-
-
-//   producto agregado
-// let botonAgregar = document.querySelectorAll("#agregar");
-
-// botonAgregar.addEventListener("click", function() {
-
-//  });

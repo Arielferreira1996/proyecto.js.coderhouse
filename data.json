@@ -1,6 +1,4 @@
-[
-
-    {
+[{
         "id": "Ryzen 3 1200",
         "titulo": "Ryzen 3 1200",
         "imagen": "./imagenes de proyecto js/amd/Ryzen_3_1200.jpg",
@@ -122,7 +120,7 @@
 
     },
     {
-        "id":"Ryzen 5 3600XT",
+        "id": "Ryzen 5 3600XT",
         "titulo": "Ryzen 5 3600XT",
         "imagen": "./imagenes de proyecto js/amd/Ryzen_5_3600XT.jpg",
         "precio": 43840,
@@ -232,7 +230,7 @@
 
     },
 
-    
+
     {
         "id": "Mother TUF_X470-Plus_Gaming",
         "titulo": "Mother TUF_X470-Plus_Gaming",
@@ -331,7 +329,7 @@
         }
 
     },
-    
+
     {
         "id": "Intel Core i3-7350k",
         "titulo": "Intel Core i3-7350k",
@@ -372,7 +370,7 @@
             "nombre": "Intel",
             "id": "Intel"
         }
-    
+
     },
     {
         "id": "Intel Core i5-8600k",
@@ -462,7 +460,7 @@
         }
 
     },
-   
+
     {
         "id": "ASUS Prime x299-A_II",
         "titulo": "ASUS Prime x299-A_II",
@@ -551,7 +549,7 @@
 
     },
 
-   
+
     {
         "id": "AMD Radeon RX 550",
         "titulo": "AMD Radeon RX 550",
