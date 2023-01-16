@@ -9,7 +9,7 @@ const numero = document.querySelector("#numero");
 
 // TRAEMOS LOS PRODUCTOS DESDE DATA.JSON******************************************************************
 
-fetch("./data.json")
+fetch("../data.json")
     .then((resp) => resp.json())
     .then((data) => {
         // FUNCION PARA CARGAR PRODUCTOS DEL DATA.JSON***************************************************
