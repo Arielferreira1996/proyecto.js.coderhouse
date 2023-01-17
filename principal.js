@@ -9,7 +9,9 @@ const numero = document.querySelector("#numero");
 
 // TRAEMOS LOS PRODUCTOS DESDE DATA.JSON******************************************************************
 
-fetch("../data.json")
+
+
+fetch("./data.json")
     .then((resp) => resp.json())
     .then((data) => {
         // FUNCION PARA CARGAR PRODUCTOS DEL DATA.JSON***************************************************
@@ -21,7 +23,7 @@ fetch("../data.json")
             productosSeleccionados.forEach(producto => {
 
                 const div = document.createElement("div");
-                div.classList.add("producto");
+                div.classList.add("producto"); 
                 div.innerHTML = `
         <img class="prod-imagen" src="${producto.imagen}" alt="${producto.titulo}">
         <div class="prod-detalles">
