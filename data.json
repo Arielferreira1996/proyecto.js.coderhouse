@@ -12,7 +12,7 @@
     {
         "id": "Ryzen 3 1300x",
         "titulo": "Ryzen 3 1300x",
-        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_3_1300x.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_3_1300x.jpg",
         "precio": 12400,
         "categoria": {
             "nombre": "Amd",
@@ -23,7 +23,7 @@
     {
         "id": "Ryzen 3 3300x",
         "titulo": "Ryzen 3 3300x",
-        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_3_3300x.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_3_3300x.jpg",
         "precio": 18200,
         "categoria": {
             "nombre": "Amd",
