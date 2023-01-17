@@ -45,7 +45,7 @@
     {
         "id": "Ryzen 5 1500X",
         "titulo": "Ryzen 5 1500x",
-        "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_5_1500x.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_5_1500X.jpg",
         "precio": 18500,
         "categoria": {
             "nombre": "Amd",
@@ -408,7 +408,7 @@
     {
         "id": "Intel Core i7-8700k",
         "titulo": "Intel Core i7-8700k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i7-8700k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i7-8700K.jpg",
         "precio": 46190,
         "categoria": {
             "nombre": "Intel",
@@ -419,7 +419,7 @@
     {
         "id": "Intel Core i7-9700k",
         "titulo": "Intel Core i7-9700k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i7-9700k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i7-9700K.jpg",
         "precio": 57620,
         "categoria": {
             "nombre": "Intel",
@@ -452,7 +452,7 @@
     {
         "id": "Intel Core i9-9900k",
         "titulo": "Intel Core i9-9900k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i9-9900k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i9-9900K.jpg",
         "precio": 86930,
         "categoria": {
             "nombre": "Intel",
@@ -464,7 +464,7 @@
     {
         "id": "ASUS Prime x299-A_II",
         "titulo": "ASUS Prime x299-A_II",
-        "imagen": "./Imagenes_de_proyecto_js/intel/ASUS_Prime_x299-A_II.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/ASUS_Prime_X299-A_II.jpg",
         "precio": 50700,
         "categoria": {
             "nombre": "Intel",
@@ -505,9 +505,9 @@
 
     },
     {
-        "id": "ASUS ROG Rampage VI Extreme encore",
-        "titulo": "ASUS ROG Rampage VI Extreme encore",
-        "imagen": "./Imagenes_de_proyecto_js/intel/ASUS_ROG_Rampage_VI_Extreme_encore.jpg",
+        "id": "ASUS ROG Rampage VI Extreme Encore",
+        "titulo": "ASUS ROG Rampage VI Extreme Encore",
+        "imagen": "./Imagenes_de_proyecto_js/intel/ASUS_ROG_Rampage_VI_Extreme_Encore.jpg",
         "precio": 103842,
         "categoria": {
             "nombre": "Intel",
