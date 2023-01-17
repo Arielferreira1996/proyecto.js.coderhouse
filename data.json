@@ -1,7 +1,7 @@
 [{
         "id": "Ryzen 3 1200",
         "titulo": "Ryzen 3 1200",
-        "imagen": "/imagenes de proyecto js/amd/Ryzen_3_1200.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_3_1200.jpg",
         "precio": 10260,
         "categoria": {
             "nombre": "Amd",
@@ -12,7 +12,7 @@
     {
         "id": "Ryzen 3 1300x",
         "titulo": "Ryzen 3 1300x",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_3_1300x.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_3_1300x.jpg",
         "precio": 12400,
         "categoria": {
             "nombre": "Amd",
@@ -23,7 +23,7 @@
     {
         "id": "Ryzen 3 3300x",
         "titulo": "Ryzen 3 3300x",
-        "imagen": "../imagenes de proyecto js/amd/Ryzen_3_3300x.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_3_3300x.jpg",
         "precio": 18200,
         "categoria": {
             "nombre": "Amd",
@@ -34,7 +34,7 @@
     {
         "id": "Ryzen 5 1400",
         "titulo": "Ryzen 5 1400",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_5_1400.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_5_1400.jpg",
         "precio": 15800,
         "categoria": {
             "nombre": "Amd",
@@ -45,7 +45,7 @@
     {
         "id": "Ryzen 5 1500x",
         "titulo": "Ryzen 5 1500x",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_5_1500x.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_5_1500x.jpg",
         "precio": 18500,
         "categoria": {
             "nombre": "Amd",
@@ -56,7 +56,7 @@
     {
         "id": "Ryzen 5 1600",
         "titulo": "Ryzen 5 1600",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_5_1600.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_5_1600.jpg",
         "precio": 19700,
         "categoria": {
             "nombre": "Amd",
@@ -67,7 +67,7 @@
     {
         "id": "Ryzen 5 1600AF",
         "titulo": "Ryzen 5 1600AF",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_5_1600_AF.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_5_1600_AF.jpg",
         "precio": 24500,
         "categoria": {
             "nombre": "Amd",
@@ -78,7 +78,7 @@
     {
         "id": "Ryzen 5 1600X",
         "titulo": "Ryzen 5 1600X",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_5_1600X.jpg",
+        "imagen": "./imagenes_de_proyecto_js/amd/Ryzen_5_1600X.jpg",
         "precio": 28380,
         "categoria": {
             "nombre": "Amd",
