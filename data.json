@@ -43,7 +43,7 @@
 
     },
     {
-        "id": "Ryzen 5 1500x",
+        "id": "Ryzen 5 1500X",
         "titulo": "Ryzen 5 1500x",
         "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_5_1500x.jpg",
         "precio": 18500,
@@ -321,7 +321,7 @@
     {
         "id": "Mother ROG_Strix_x570-F_Gaming",
         "titulo": "Mother ROG_Strix_x570-F_Gaming",
-        "imagen": "./Imagenes_de_proyecto_js/amd/ROG_Strix_x570-F_Gaming.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/amd/ROG_Strix_X570-F_Gaming.jpg",
         "precio": 271950,
         "categoria": {
             "nombre": "Amd",
@@ -333,7 +333,7 @@
     {
         "id": "Intel Core i3-7350k",
         "titulo": "Intel Core i3-7350k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-7350k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-7350K.jpg",
         "precio": 20940,
         "categoria": {
             "nombre": "Intel",
@@ -343,7 +343,7 @@
     {
         "id": "Intel Core i3-8350k",
         "titulo": "Intel Core i3-8350k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-8350k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-8350K.jpg",
         "precio": 25700,
         "categoria": {
             "nombre": "Intel",
@@ -354,7 +354,7 @@
     {
         "id": "Intel Core i3-9350kF",
         "titulo": "Intel Core i3-9350kF",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-9350kF.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i3-9350KF.jpg",
         "precio": 29920,
         "categoria": {
             "nombre": "Intel",
@@ -375,7 +375,7 @@
     {
         "id": "Intel Core i5-8600k",
         "titulo": "Intel Core i5-8600k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i5-8600k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i5-8600K.jpg",
         "precio": 34930,
         "categoria": {
             "nombre": "Intel",
@@ -386,7 +386,7 @@
     {
         "id": "Intel Core i5-9600k",
         "titulo": "Intel Core i5-9600k",
-        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i5-9600k.jpg",
+        "imagen": "./Imagenes_de_proyecto_js/intel/Intel_Core_i5-9600K.jpg",
         "precio": 39160,
         "categoria": {
             "nombre": "Intel",
