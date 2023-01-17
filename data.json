@@ -1,7 +1,7 @@
 [{
         "id": "Ryzen 3 1200",
         "titulo": "Ryzen 3 1200",
-        "imagen": "./imagenes de proyecto js/amd/Ryzen_3_1200.jpg",
+        "imagen": "../imagenes de proyecto js/amd/Ryzen_3_1200.jpg",
         "precio": 10260,
         "categoria": {
             "nombre": "Amd",
