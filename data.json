@@ -44,7 +44,7 @@
     },
     {
         "id": "Ryzen 5 1500X",
-        "titulo": "Ryzen 5 1500x",
+        "titulo": "Ryzen 5 1500X",
         "imagen": "./Imagenes_de_proyecto_js/amd/Ryzen_5_1500X.jpg",
         "precio": 18500,
         "categoria": {
